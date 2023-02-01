@@ -6,7 +6,6 @@ export const PosicionScreen = () => {
     <View style={styles.container}>
         <View style={styles.cajaMorada}></View>
         <View style={styles.cajaNaranja}></View>
-
     </View>
   )
 }
@@ -14,15 +13,16 @@ export const PosicionScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#28C4D9'
+        backgroundColor: '#28C4D9',
+        justifyContent: 'center',
+        alignItems: 'center'
     },
     cajaMorada: {
         width: 100,
         height: 100,
         backgroundColor: '#5856D6',
         borderWidth: 15,
-        borderColor: 'white',
-        left: 50
+        borderColor: 'white'
     },
     cajaNaranja: {
         width: 100,
